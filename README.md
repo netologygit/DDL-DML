@@ -32,28 +32,33 @@
 ![dump db](https://user-images.githubusercontent.com/123411071/233840476-0535bada-2baa-47d2-a5fb-8b1e1f648755.png)
 
 1.2 CREATE USER 'sys_temp' IDENTIFIED BY 'Pass1234567';
+
 1.3 SELECT user FROM mysql.user;
+
 1.4 GRANT ALL PRIVILEGES ON *.* TO 'sys_temp';
+
 1.5 show grants for 'sys_temp';
+
 1.6 ALTER USER 'sys_temp' IDENTIFIED WITH mysql_native_password BY 'Pass1234567';
 
 ###Задание 2
+
 Название таблицы | Название первичного ключа
          
-actor                  actor_id
-address                address_id
-category               category_id
-city                   city_id 
-country                country_id
-customer               customer_id
-film                   film_id
-film_actor             actor_id, film_id
-film_category          film_id, category_id
-film_text              film_id
-inventory              inventory_id
-language               language_id
-payment                payment_id
-rental                 rental_id
+actor                  actor_id  
+address                address_id  
+category               category_id  
+city                   city_id   
+country                country_id  
+customer               customer_id  
+film                   film_id  
+film_actor             actor_id, film_id  
+film_category          film_id, category_id  
+film_text              film_id  
+inventory              inventory_id  
+language               language_id  
+payment                payment_id  
+rental                 rental_id  
 staff                  staff_id
 store                  store_id, manager_staff_id
 
