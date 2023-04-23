@@ -20,8 +20,7 @@
 
 1. [Руководство по оформлению Markdown файлов](https://gist.github.com/Jekins/2bf2d0638163f1294637#Code)
 
----
-
+Игуменова Екатерина - «Работа с данными (DDL/DML)»
 ### Задание 1
 ![create_user](https://user-images.githubusercontent.com/123411071/233840415-23a181b5-88e3-4d60-87bc-b55529eb697a.png)
 ![grant](https://user-images.githubusercontent.com/123411071/233840420-739aeb57-6db9-4dcd-8cae-c69a87859a24.png)
