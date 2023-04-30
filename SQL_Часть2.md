@@ -42,14 +42,12 @@ from film f);
 ```sql
 
 
-select month(p.payment_date) as "месяц", sum(p.amount) as "сумма платежей", count(p.rental_id) as "кол-во аренд" 
-
+select date_format(p.payment_date, '%m %Y') as "месяц год", sum(p.amount) as "сумма платежей", count(p.rental_id) as "кол-во аренд" 
 from payment p
-
-group by month(p.payment_date)
-
+group by date_format(p.payment_date, '%m %Y')
 order by sum(p.amount) desc limit 1;
 
 ```
 
-![ex 3](https://user-images.githubusercontent.com/123411071/235351115-2eb5c46b-e8fd-41e3-8902-0f247555c542.png)
+
+![Screenshot_1](https://user-images.githubusercontent.com/123411071/235373884-7bbac431-ad59-47b3-8f5a-9f57726f32ee.png)
